@@ -1,0 +1,885 @@
+2026-02-21 15:04:53.340 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 15:04:55.079 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 15:15:10.776 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 15:15:12.868 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 16:06:32.976 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 16:06:35.604 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 16:07:48.348 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 16:07:50.578 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 16:27:27.460 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 16:27:29.986 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 16:48:53.505 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 16:48:56.118 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 16:58:27.073 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 16:58:29.719 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 16:58:57.210 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 16:58:59.408 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 17:05:31.176 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 17:05:33.171 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 17:21:30.630 | INFO     | app.api.middleware:dispatch:64 - GET /api/extract/all 422
+2026-02-21 17:21:30.678 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 17:21:32.198 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 17:41:21.625 | INFO     | app.api.middleware:dispatch:64 - GET /api/extract/all 422
+2026-02-21 17:41:21.660 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 17:41:23.037 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 17:46:36.440 | INFO     | app.api.middleware:dispatch:64 - GET /api/extract/all 422
+2026-02-21 17:46:36.478 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 17:46:38.305 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 17:51:51.273 | INFO     | app.api.middleware:dispatch:64 - GET /api/metadata/extract 404
+2026-02-21 17:51:52.596 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 17:51:54.699 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 17:51:59.951 | INFO     | app.api.middleware:dispatch:64 - GET /api/metadata/extract 404
+2026-02-21 17:51:59.973 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 17:52:01.861 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 18:21:30.771 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 18:21:32.586 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 18:44:35.285 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 18:44:37.295 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 18:46:52.368 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 18:46:55.140 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 18:47:18.087 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 18:47:40.315 | ERROR    | app.ai.groq_client:generate_summary:99 - Groq network error: %s
+2026-02-21 18:47:40.317 | ERROR    | app.ai.groq_client:generate_summary:114 - Failed to load local sample for fallback
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 204
+               │     └ 3
+               └ <function _main at 0x0000012E73DF53A0>
+  File "C:\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 204
+           │    └ <function BaseProcess._bootstrap at 0x0000012E73CE3920>
+           └ <SpawnProcess name='SpawnProcess-1' parent=11000 started>
+  File "C:\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000012E73CE2E80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=11000 started>
+  File "C:\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000012E73DAE5A0>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=11000 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=11000 started>
+    │    └ <function subprocess_started at 0x0000012E761D6D40>
+    └ <SpawnProcess name='SpawnProcess-1' parent=11000 started>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=880, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x0000012E762ED100>>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\uvicorn\server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=880, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │       │   │    └ <function Server.serve at 0x0000012E761D6200>
+           │       │   └ <uvicorn.server.Server object at 0x0000012E762ED100>
+           │       └ <function run at 0x0000012E73910680>
+           └ <module 'asyncio' from 'C:\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000012E76124940>
+           │      └ <function Runner.run at 0x0000012E75ADC180>
+           └ <asyncio.runners.Runner object at 0x0000012E76203E60>
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.ven...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000012E75AD9DA0>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000012E76203E60>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000012E75AD9D00>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000012E75ADBB00>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000012E7440E0C0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x0000012E7F940720>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000012E7F940860>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000012E7F9315E0>
+          └ <app.api.middleware.LoggingMiddleware object at 0x0000012E7F931D60>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x0000012E7F994FE0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000012E7F940860>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x0000012E7F931C40>
+          └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000012E7F9315E0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x0000012E7F994FE0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000012E7F940860>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0x0000012E7F907770>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x0000012E7F931C40>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x0000012E7F994FE0>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000012E7F940860>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x0000012E771442C0>
+          └ APIRoute(path='/api/ai/query', name='query', methods=['POST'])
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x0000012E7F994FE0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000012E7F940860>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x0000012E7F9400E0>
+          └ APIRoute(path='/api/ai/query', name='query', methods=['POST'])
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x0000012E7F975460>
+                     └ <function get_request_handler.<locals>.app at 0x0000012E7F9402C0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x0000012E771453A0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'req': QueryRequest(data={'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to...
+                 │         └ <function query at 0x0000012E7F5AFC40>
+                 └ <fastapi.dependencies.models.Dependant object at 0x0000012E7F933CE0>
+
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\api\routes\ai.py", line 61, in query
+    summary = await pipeline.summarize_table(req.data)
+                    │        │               │   └ {'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to help users understand the...
+                    │        │               └ QueryRequest(data={'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to help us...
+                    │        └ <function LangChainPipeline.summarize_table at 0x0000012E7F5AE3E0>
+                    └ <app.ai.langchain_pipeline.LangChainPipeline object at 0x0000012E7F974590>
+
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\ai\langchain_pipeline.py", line 39, in summarize_table
+    return await self.groq.generate_summary(text)
+                 │    │    │                └ '{\'messages\': [{\'role\': \'system\', \'content\': \'\\nYou are a Data Dictionary Assistant. Your task is to help users und...
+                 │    │    └ <function GroqClient.generate_summary at 0x0000012E7F3BADE0>
+                 │    └ <app.ai.groq_client.GroqClient object at 0x0000012E7F974D40>
+                 └ <app.ai.langchain_pipeline.LangChainPipeline object at 0x0000012E7F974590>
+
+> File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\ai\groq_client.py", line 104, in generate_summary
+    data = json.load(f)
+           │    │    └ <_io.TextIOWrapper name='C:\\Users\\DeLL\\Downloads\\datadict-llm\\Data Dictionary\\backend\\app\\data\\sample.json' mode='r'...
+           │    └ <function load at 0x0000012E75F93B00>
+           └ <module 'json' from 'C:\\Python312\\Lib\\json\\__init__.py'>
+
+  File "C:\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           │     │  └ <method 'read' of '_io.TextIOWrapper' objects>
+           │     └ <_io.TextIOWrapper name='C:\\Users\\DeLL\\Downloads\\datadict-llm\\Data Dictionary\\backend\\app\\data\\sample.json' mode='r'...
+           └ <function loads at 0x0000012E75F93BA0>
+  File "C:\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           │                │      └ ''
+           │                └ <function JSONDecoder.decode at 0x0000012E75F93560>
+           └ <json.decoder.JSONDecoder object at 0x0000012E75B63B30>
+  File "C:\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               │    │          │      │  └ ''
+               │    │          │      └ <built-in method match of re.Pattern object at 0x0000012E75B1B370>
+               │    │          └ ''
+               │    └ <function JSONDecoder.raw_decode at 0x0000012E75F93600>
+               └ <json.decoder.JSONDecoder object at 0x0000012E75B63B30>
+  File "C:\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+          │                                  └ ''
+          └ <class 'json.decoder.JSONDecodeError'>
+
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-02-21 18:47:40.604 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 18:53:17.766 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 18:53:40.135 | ERROR    | app.ai.groq_client:generate_summary:99 - Groq network error: %s
+2026-02-21 18:53:40.138 | ERROR    | app.ai.groq_client:generate_summary:114 - Failed to load local sample for fallback
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 392
+               │     └ 3
+               └ <function _main at 0x000002025FDF53A0>
+  File "C:\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 392
+           │    └ <function BaseProcess._bootstrap at 0x000002025FCE3920>
+           └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+  File "C:\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x000002025FCE2E80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+  File "C:\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000002025FDAE5A0>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+    │    └ <function subprocess_started at 0x00000202620F6D40>
+    └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=908, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x00000202621FD100>>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\uvicorn\server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=908, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │       │   │    └ <function Server.serve at 0x00000202620F6200>
+           │       │   └ <uvicorn.server.Server object at 0x00000202621FD100>
+           │       └ <function run at 0x000002025F830680>
+           └ <module 'asyncio' from 'C:\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000020262064940>
+           │      └ <function Runner.run at 0x0000020261A1C180>
+           └ <asyncio.runners.Runner object at 0x0000020262123E60>
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.ven...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000020261A19DA0>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000020262123E60>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000020261A19D00>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000020261A1BB00>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002026194E0C0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000002027367F600>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002027367F4C0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000020273631E20>
+          └ <app.api.middleware.LoggingMiddleware object at 0x0000020273631E80>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000002027367F9C0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002027367F4C0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x00000202736315E0>
+          └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000020273631E20>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000002027367F9C0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002027367F4C0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0x0000020272829220>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x00000202736315E0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000002027367F9C0>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002027367F4C0>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x00000202630382C0>
+          └ APIRoute(path='/api/ai/query', name='query', methods=['POST'])
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000002027367F9C0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002027367F4C0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x00000202736400E0>
+          └ APIRoute(path='/api/ai/query', name='query', methods=['POST'])
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x00000202736754C0>
+                     └ <function get_request_handler.<locals>.app at 0x00000202736402C0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x00000202630393A0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'req': QueryRequest(data={'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to...
+                 │         └ <function query at 0x000002027349FC40>
+                 └ <fastapi.dependencies.models.Dependant object at 0x0000020273633CB0>
+
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\api\routes\ai.py", line 61, in query
+    summary = await pipeline.summarize_table(req.data)
+                    │        │               │   └ {'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to help users understand the...
+                    │        │               └ QueryRequest(data={'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to help us...
+                    │        └ <function LangChainPipeline.summarize_table at 0x000002027349E3E0>
+                    └ <app.ai.langchain_pipeline.LangChainPipeline object at 0x0000020273402D20>
+
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\ai\langchain_pipeline.py", line 39, in summarize_table
+    return await self.groq.generate_summary(text)
+                 │    │    │                └ "{'messages': [{'role': 'system', 'content': '\\nYou are a Data Dictionary Assistant. Your task is to help users understand t...
+                 │    │    └ <function GroqClient.generate_summary at 0x00000202732AADE0>
+                 │    └ <app.ai.groq_client.GroqClient object at 0x0000020272787770>
+                 └ <app.ai.langchain_pipeline.LangChainPipeline object at 0x0000020273402D20>
+
+> File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\ai\groq_client.py", line 104, in generate_summary
+    data = json.load(f)
+           │    │    └ <_io.TextIOWrapper name='C:\\Users\\DeLL\\Downloads\\datadict-llm\\Data Dictionary\\backend\\app\\data\\sample.json' mode='r'...
+           │    └ <function load at 0x0000020261ED3B00>
+           └ <module 'json' from 'C:\\Python312\\Lib\\json\\__init__.py'>
+
+  File "C:\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           │     │  └ <method 'read' of '_io.TextIOWrapper' objects>
+           │     └ <_io.TextIOWrapper name='C:\\Users\\DeLL\\Downloads\\datadict-llm\\Data Dictionary\\backend\\app\\data\\sample.json' mode='r'...
+           └ <function loads at 0x0000020261ED3BA0>
+  File "C:\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           │                │      └ ''
+           │                └ <function JSONDecoder.decode at 0x0000020261ED3560>
+           └ <json.decoder.JSONDecoder object at 0x0000020261AA3B30>
+  File "C:\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               │    │          │      │  └ ''
+               │    │          │      └ <built-in method match of re.Pattern object at 0x0000020261A5B370>
+               │    │          └ ''
+               │    └ <function JSONDecoder.raw_decode at 0x0000020261ED3600>
+               └ <json.decoder.JSONDecoder object at 0x0000020261AA3B30>
+  File "C:\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+          │                                  └ ''
+          └ <class 'json.decoder.JSONDecodeError'>
+
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-02-21 18:53:40.174 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 18:53:59.145 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 18:54:01.196 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 19:01:59.378 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 19:02:01.171 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 19:07:05.625 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 19:07:12.553 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 19:07:34.927 | ERROR    | app.ai.groq_client:generate_summary:99 - Groq network error: %s
+2026-02-21 19:07:34.929 | ERROR    | app.ai.groq_client:generate_summary:114 - Failed to load local sample for fallback
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 392
+               │     └ 3
+               └ <function _main at 0x000002025FDF53A0>
+  File "C:\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 392
+           │    └ <function BaseProcess._bootstrap at 0x000002025FCE3920>
+           └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+  File "C:\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x000002025FCE2E80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+  File "C:\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000002025FDAE5A0>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+    │    └ <function subprocess_started at 0x00000202620F6D40>
+    └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=908, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x00000202621FD100>>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\uvicorn\server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=908, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │       │   │    └ <function Server.serve at 0x00000202620F6200>
+           │       │   └ <uvicorn.server.Server object at 0x00000202621FD100>
+           │       └ <function run at 0x000002025F830680>
+           └ <module 'asyncio' from 'C:\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000020262064940>
+           │      └ <function Runner.run at 0x0000020261A1C180>
+           └ <asyncio.runners.Runner object at 0x0000020262123E60>
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.ven...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000020261A19DA0>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000020262123E60>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000020261A19D00>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000020261A1BB00>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002026194E0C0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x00000202736939C0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000020273693880>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000020273631E20>
+          └ <app.api.middleware.LoggingMiddleware object at 0x0000020273631E80>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x0000020273693D80>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000020273693880>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x00000202736315E0>
+          └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000020273631E20>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x0000020273693D80>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000020273693880>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0x0000020272829220>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x00000202736315E0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x0000020273693D80>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000020273693880>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x00000202630382C0>
+          └ APIRoute(path='/api/ai/query', name='query', methods=['POST'])
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x0000020273693D80>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000020273693880>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x00000202736400E0>
+          └ APIRoute(path='/api/ai/query', name='query', methods=['POST'])
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x0000020273AC67B0>
+                     └ <function get_request_handler.<locals>.app at 0x00000202736402C0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x00000202630393A0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'req': QueryRequest(data={'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to...
+                 │         └ <function query at 0x000002027349FC40>
+                 └ <fastapi.dependencies.models.Dependant object at 0x0000020273633CB0>
+
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\api\routes\ai.py", line 61, in query
+    summary = await pipeline.summarize_table(req.data)
+                    │        │               │   └ {'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to help users understand the...
+                    │        │               └ QueryRequest(data={'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to help us...
+                    │        └ <function LangChainPipeline.summarize_table at 0x000002027349E3E0>
+                    └ <app.ai.langchain_pipeline.LangChainPipeline object at 0x0000020273AC7020>
+
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\ai\langchain_pipeline.py", line 39, in summarize_table
+    return await self.groq.generate_summary(text)
+                 │    │    │                └ '{\'messages\': [{\'role\': \'system\', \'content\': \'\\nYou are a Data Dictionary Assistant. Your task is to help users und...
+                 │    │    └ <function GroqClient.generate_summary at 0x00000202732AADE0>
+                 │    └ <app.ai.groq_client.GroqClient object at 0x0000020273AC6FF0>
+                 └ <app.ai.langchain_pipeline.LangChainPipeline object at 0x0000020273AC7020>
+
+> File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\ai\groq_client.py", line 104, in generate_summary
+    data = json.load(f)
+           │    │    └ <_io.TextIOWrapper name='C:\\Users\\DeLL\\Downloads\\datadict-llm\\Data Dictionary\\backend\\app\\data\\sample.json' mode='r'...
+           │    └ <function load at 0x0000020261ED3B00>
+           └ <module 'json' from 'C:\\Python312\\Lib\\json\\__init__.py'>
+
+  File "C:\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           │     │  └ <method 'read' of '_io.TextIOWrapper' objects>
+           │     └ <_io.TextIOWrapper name='C:\\Users\\DeLL\\Downloads\\datadict-llm\\Data Dictionary\\backend\\app\\data\\sample.json' mode='r'...
+           └ <function loads at 0x0000020261ED3BA0>
+  File "C:\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           │                │      └ ''
+           │                └ <function JSONDecoder.decode at 0x0000020261ED3560>
+           └ <json.decoder.JSONDecoder object at 0x0000020261AA3B30>
+  File "C:\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               │    │          │      │  └ ''
+               │    │          │      └ <built-in method match of re.Pattern object at 0x0000020261A5B370>
+               │    │          └ ''
+               │    └ <function JSONDecoder.raw_decode at 0x0000020261ED3600>
+               └ <json.decoder.JSONDecoder object at 0x0000020261AA3B30>
+  File "C:\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+          │                                  └ ''
+          └ <class 'json.decoder.JSONDecodeError'>
+
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-02-21 19:07:34.952 | ERROR    | app.ai.groq_client:generate_summary:99 - Groq network error: %s
+2026-02-21 19:07:34.954 | ERROR    | app.ai.groq_client:generate_summary:114 - Failed to load local sample for fallback
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 392
+               │     └ 3
+               └ <function _main at 0x000002025FDF53A0>
+  File "C:\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 392
+           │    └ <function BaseProcess._bootstrap at 0x000002025FCE3920>
+           └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+  File "C:\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x000002025FCE2E80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+  File "C:\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000002025FDAE5A0>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+    │    └ <function subprocess_started at 0x00000202620F6D40>
+    └ <SpawnProcess name='SpawnProcess-1' parent=19208 started>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=908, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x00000202621FD100>>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\uvicorn\server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=908, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │       │   │    └ <function Server.serve at 0x00000202620F6200>
+           │       │   └ <uvicorn.server.Server object at 0x00000202621FD100>
+           │       └ <function run at 0x000002025F830680>
+           └ <module 'asyncio' from 'C:\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000020262064940>
+           │      └ <function Runner.run at 0x0000020261A1C180>
+           └ <asyncio.runners.Runner object at 0x0000020262123E60>
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.ven...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000020261A19DA0>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000020262123E60>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000020261A19D00>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000020261A1BB00>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002026194E0C0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x00000202736927A0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000020273691DA0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000020273631E20>
+          └ <app.api.middleware.LoggingMiddleware object at 0x0000020273631E80>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000002027367F920>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000020273691DA0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x00000202736315E0>
+          └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x0000020273631E20>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000002027367F920>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000020273691DA0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0x0000020272829220>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x00000202736315E0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000002027367F920>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000020273691DA0>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x00000202630382C0>
+          └ APIRoute(path='/api/ai/query', name='query', methods=['POST'])
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000002027367F920>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000020273691DA0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x00000202736400E0>
+          └ APIRoute(path='/api/ai/query', name='query', methods=['POST'])
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x0000020273675A90>
+                     └ <function get_request_handler.<locals>.app at 0x00000202736402C0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x00000202630393A0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'req': QueryRequest(data={'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to...
+                 │         └ <function query at 0x000002027349FC40>
+                 └ <fastapi.dependencies.models.Dependant object at 0x0000020273633CB0>
+
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\api\routes\ai.py", line 61, in query
+    summary = await pipeline.summarize_table(req.data)
+                    │        │               │   └ {'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to help users understand the...
+                    │        │               └ QueryRequest(data={'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to help us...
+                    │        └ <function LangChainPipeline.summarize_table at 0x000002027349E3E0>
+                    └ <app.ai.langchain_pipeline.LangChainPipeline object at 0x0000020273AB2150>
+
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\ai\langchain_pipeline.py", line 39, in summarize_table
+    return await self.groq.generate_summary(text)
+                 │    │    │                └ '{\'messages\': [{\'role\': \'system\', \'content\': \'\\nYou are a Data Dictionary Assistant. Your task is to help users und...
+                 │    │    └ <function GroqClient.generate_summary at 0x00000202732AADE0>
+                 │    └ <app.ai.groq_client.GroqClient object at 0x0000020273AC46E0>
+                 └ <app.ai.langchain_pipeline.LangChainPipeline object at 0x0000020273AB2150>
+
+> File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\ai\groq_client.py", line 104, in generate_summary
+    data = json.load(f)
+           │    │    └ <_io.TextIOWrapper name='C:\\Users\\DeLL\\Downloads\\datadict-llm\\Data Dictionary\\backend\\app\\data\\sample.json' mode='r'...
+           │    └ <function load at 0x0000020261ED3B00>
+           └ <module 'json' from 'C:\\Python312\\Lib\\json\\__init__.py'>
+
+  File "C:\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           │     │  └ <method 'read' of '_io.TextIOWrapper' objects>
+           │     └ <_io.TextIOWrapper name='C:\\Users\\DeLL\\Downloads\\datadict-llm\\Data Dictionary\\backend\\app\\data\\sample.json' mode='r'...
+           └ <function loads at 0x0000020261ED3BA0>
+  File "C:\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           │                │      └ ''
+           │                └ <function JSONDecoder.decode at 0x0000020261ED3560>
+           └ <json.decoder.JSONDecoder object at 0x0000020261AA3B30>
+  File "C:\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               │    │          │      │  └ ''
+               │    │          │      └ <built-in method match of re.Pattern object at 0x0000020261A5B370>
+               │    │          └ ''
+               │    └ <function JSONDecoder.raw_decode at 0x0000020261ED3600>
+               └ <json.decoder.JSONDecoder object at 0x0000020261AA3B30>
+  File "C:\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+          │                                  └ ''
+          └ <class 'json.decoder.JSONDecodeError'>
+
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-02-21 19:07:34.977 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 19:07:34.979 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 19:10:59.748 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 19:11:22.509 | ERROR    | app.ai.groq_client:generate_summary:99 - Groq network error: %s
+2026-02-21 19:11:22.510 | ERROR    | app.ai.groq_client:generate_summary:114 - Failed to load local sample for fallback
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 364
+               │     └ 3
+               └ <function _main at 0x000002503A1C53A0>
+  File "C:\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 364
+           │    └ <function BaseProcess._bootstrap at 0x000002503A0B3920>
+           └ <SpawnProcess name='SpawnProcess-1' parent=19320 started>
+  File "C:\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x000002503A0B2E80>
+    └ <SpawnProcess name='SpawnProcess-1' parent=19320 started>
+  File "C:\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000002503A17E5A0>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=19320 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=19320 started>
+    │    └ <function subprocess_started at 0x000002503C526D40>
+    └ <SpawnProcess name='SpawnProcess-1' parent=19320 started>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=620, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x000002503C644E90>>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\uvicorn\server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=620, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>]
+           │       │   │    └ <function Server.serve at 0x000002503C526200>
+           │       │   └ <uvicorn.server.Server object at 0x000002503C644E90>
+           │       └ <function run at 0x0000025039C50680>
+           └ <module 'asyncio' from 'C:\\Python312\\Lib\\asyncio\\__init__.py'>
+  File "C:\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x000002503C474940>
+           │      └ <function Runner.run at 0x000002503BE0C180>
+           └ <asyncio.runners.Runner object at 0x000002503C551820>
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.ven...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x000002503BE09DA0>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x000002503C551820>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x000002503BE09D00>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000002503BE0BB00>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Python312\Lib\asyncio\base_events.py", line 1987, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000002503BD3E0C0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000002504DB5F600>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002504DB5F4C0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000002504DB10F50>
+          └ <app.api.middleware.LoggingMiddleware object at 0x000002504D966270>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000002504DB06020>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002504DB5F4C0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000002504DB13B00>
+          └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000002504DB10F50>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000002504DB06020>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002504DB5F4C0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0x000002504DAE3380>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000002504DB13B00>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000002504DB06020>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002504DB5F4C0>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x000002503D4942C0>
+          └ APIRoute(path='/api/ai/query', name='query', methods=['POST'])
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function ExceptionMiddleware.__call__.<locals>.sender at 0x000002504DB06020>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000002504DB5F4C0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000002504DB200E0>
+          └ APIRoute(path='/api/ai/query', name='query', methods=['POST'])
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x000002504DB55430>
+                     └ <function get_request_handler.<locals>.app at 0x000002504DB202C0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000002503D4953A0>
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\.venv\Lib\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'req': QueryRequest(data={'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to...
+                 │         └ <function query at 0x000002504D8FFC40>
+                 └ <fastapi.dependencies.models.Dependant object at 0x000002504DB13B60>
+
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\api\routes\ai.py", line 61, in query
+    summary = await pipeline.summarize_table(req.data)
+                    │        │               │   └ {'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to help users understand the...
+                    │        │               └ QueryRequest(data={'messages': [{'role': 'system', 'content': '\nYou are a Data Dictionary Assistant. Your task is to help us...
+                    │        └ <function LangChainPipeline.summarize_table at 0x000002504D8FE3E0>
+                    └ <app.ai.langchain_pipeline.LangChainPipeline object at 0x000002504CAB2D20>
+
+  File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\ai\langchain_pipeline.py", line 39, in summarize_table
+    return await self.groq.generate_summary(text)
+                 │    │    │                └ "{'messages': [{'role': 'system', 'content': '\\nYou are a Data Dictionary Assistant. Your task is to help users understand t...
+                 │    │    └ <function GroqClient.generate_summary at 0x000002504D706DE0>
+                 │    └ <app.ai.groq_client.GroqClient object at 0x000002504D8EDB80>
+                 └ <app.ai.langchain_pipeline.LangChainPipeline object at 0x000002504CAB2D20>
+
+> File "C:\Users\DeLL\Downloads\datadict-llm\Data Dictionary\backend\app\ai\groq_client.py", line 104, in generate_summary
+    data = json.load(f)
+           │    │    └ <_io.TextIOWrapper name='C:\\Users\\DeLL\\Downloads\\datadict-llm\\Data Dictionary\\backend\\app\\data\\sample.json' mode='r'...
+           │    └ <function load at 0x000002503C2D3B00>
+           └ <module 'json' from 'C:\\Python312\\Lib\\json\\__init__.py'>
+
+  File "C:\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           │     │  └ <method 'read' of '_io.TextIOWrapper' objects>
+           │     └ <_io.TextIOWrapper name='C:\\Users\\DeLL\\Downloads\\datadict-llm\\Data Dictionary\\backend\\app\\data\\sample.json' mode='r'...
+           └ <function loads at 0x000002503C2D3BA0>
+  File "C:\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           │                │      └ ''
+           │                └ <function JSONDecoder.decode at 0x000002503C2D3560>
+           └ <json.decoder.JSONDecoder object at 0x000002503BE93B30>
+  File "C:\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               │    │          │      │  └ ''
+               │    │          │      └ <built-in method match of re.Pattern object at 0x000002503BE4B370>
+               │    │          └ ''
+               │    └ <function JSONDecoder.raw_decode at 0x000002503C2D3600>
+               └ <json.decoder.JSONDecoder object at 0x000002503BE93B30>
+  File "C:\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+          │                                  └ ''
+          └ <class 'json.decoder.JSONDecodeError'>
+
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2026-02-21 19:11:22.561 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 19:24:27.442 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 19:24:29.611 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 19:24:33.721 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 19:24:36.851 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 19:25:45.133 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 19:25:47.908 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 19:41:37.899 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 19:41:43.572 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 20:00:07.562 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 20:00:10.517 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 20:00:34.464 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 20:00:36.173 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 20:04:39.390 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 20:04:44.069 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 20:05:17.059 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 20:05:19.382 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 20:09:16.124 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 20:09:18.217 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 20:11:49.296 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 20:11:52.937 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 20:15:19.020 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 20:15:22.382 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 20:19:51.136 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 20:19:54.919 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 20:35:45.487 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 20:36:08.086 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 20:38:36.000 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 20:38:42.160 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 20:40:35.581 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 20:40:39.066 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-21 20:41:10.489 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-21 20:41:14.732 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
