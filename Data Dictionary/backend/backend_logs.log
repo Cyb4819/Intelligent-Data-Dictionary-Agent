@@ -883,3 +883,69 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 2026-02-21 20:40:39.066 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
 2026-02-21 20:41:10.489 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
 2026-02-21 20:41:14.732 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 01:09:53.902 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 01:09:56.564 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 01:10:36.413 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 01:10:38.563 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 02:21:27.939 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:21:29.758 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 02:27:17.643 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:27:20.769 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 02:27:30.374 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:27:32.408 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 02:29:52.080 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:29:54.178 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 02:30:02.790 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:30:04.723 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 02:33:31.284 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:33:33.753 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 02:33:41.592 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:33:43.872 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 02:39:04.630 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:39:09.172 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 02:42:46.315 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:42:47.455 | ERROR    | app.ai.groq_client:generate_summary:85 - Groq API error: %s %s
+2026-02-22 02:42:47.465 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 500
+2026-02-22 02:44:15.009 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:44:18.871 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 02:49:36.221 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:49:37.286 | ERROR    | app.ai.groq_client:generate_summary:85 - Groq API error: %s %s
+2026-02-22 02:49:37.289 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 500
+2026-02-22 02:51:38.662 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:51:40.823 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 02:57:09.131 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:57:10.223 | ERROR    | app.ai.groq_client:generate_summary:85 - Groq API error: %s %s
+2026-02-22 02:57:10.225 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 500
+2026-02-22 02:58:20.508 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:58:21.533 | ERROR    | app.ai.groq_client:generate_summary:85 - Groq API error: %s %s
+2026-02-22 02:58:21.537 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 500
+2026-02-22 02:59:03.920 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 02:59:04.924 | ERROR    | app.ai.groq_client:generate_summary:85 - Groq API error: %s %s
+2026-02-22 02:59:04.926 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 500
+2026-02-22 03:00:10.162 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 03:00:11.191 | ERROR    | app.ai.groq_client:generate_summary:85 - Groq API error: %s %s
+2026-02-22 03:00:11.193 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 500
+2026-02-22 03:01:32.367 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 03:01:33.380 | ERROR    | app.ai.groq_client:generate_summary:85 - Groq API error: %s %s
+2026-02-22 03:01:33.382 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 500
+2026-02-22 03:07:38.183 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 03:07:39.663 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 03:16:55.456 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 03:16:56.515 | ERROR    | app.ai.groq_client:generate_summary:85 - Groq API error: %s %s
+2026-02-22 03:16:56.518 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 500
+2026-02-22 03:29:10.522 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 03:29:13.002 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 03:44:10.029 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 03:44:14.160 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 03:44:50.265 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 03:44:54.098 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 03:46:54.592 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 03:46:58.184 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 03:53:41.666 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 03:53:43.552 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 03:54:14.861 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 03:54:16.426 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 09:20:14.667 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 09:20:16.811 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200
+2026-02-22 09:28:53.176 | DEBUG    | app.ai.groq_client:generate_summary:19 - GroqClient.generate_summary called
+2026-02-22 09:28:55.654 | INFO     | app.api.middleware:dispatch:64 - POST /api/ai/query 200

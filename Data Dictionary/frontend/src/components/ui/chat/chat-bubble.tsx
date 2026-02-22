@@ -83,11 +83,11 @@ const ChatBubbleAvatar: React.FC<ChatBubbleAvatarProps> = ({
 
 // ChatBubbleMessage
 const chatBubbleMessageVariants = cva("p-3 px-6", {
-  variants: {
+    variants: {
     variant: {
       received:
-        "text-secondary-foreground rounded-lg py-2",
-      sent: "bg-secondary text-secondary-foreground rounded-3xl",
+        "glass-card border border-white/10 text-secondary-foreground rounded-2xl py-2",
+      sent: "glass-card border border-white/10 text-secondary-foreground rounded-3xl",
     },
     layout: {
       default: "",

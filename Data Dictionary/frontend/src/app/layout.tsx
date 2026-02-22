@@ -7,7 +7,7 @@ import { Toaster } from "@/components/ui/sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "DatAI",
+	title: "Quantum Data",
 	description: "Our Hackathon project",
 	icons: {
 		icon: [

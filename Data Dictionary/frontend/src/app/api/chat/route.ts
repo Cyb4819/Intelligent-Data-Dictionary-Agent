@@ -6,7 +6,7 @@ async function fetchSchema(): Promise<any> {
     {
       "type": "mysql",
       "url": "jdbc:mysql://localhost:3306/customers",
-      "username": "root", 
+      "username": "root",
       "password": "vansh4542",
       "driverClassName": "com.mysql.cj.jdbc.Driver"
     },
@@ -14,7 +14,7 @@ async function fetchSchema(): Promise<any> {
       "type": "postgres",
       "url": "jdbc:postgresql://localhost:5432/postgres",
       "username": "postgres",
-      "password": "vansh4542", 
+      "password": "vansh4542",
       "driverClassName": "org.postgresql.Driver"
     }
   ];
@@ -68,6 +68,29 @@ export async function POST(req: Request) {
 
     const json = await resp.json();
     const text = json.output || json.summary || '';
+
+    // NEW: Send LLM output back to backend
+    try {
+      const backendResponse = await fetch('http://localhost:8081/api/metadata/llm-output', {  // Update endpoint as needed
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          llmOutput: text,
+          metadata: schemaData,
+          messages: messages,
+          fullResponse: json  // Include full AI response if needed
+        })
+      });
+
+      if (!backendResponse.ok) {
+        console.error('[CHAT-API] Failed to save LLM output:', await backendResponse.text());
+      } else {
+        console.log(`[CHAT-API] LLM output saved to backend successfully ${requestBody.data.messages}`);
+      }
+    } catch (saveErr) {
+      console.error('[CHAT-API] Error saving LLM output:', saveErr);
+      // Don't fail the main flow - just log the error
+    }
 
     // Stream ai-sdk compatible parts (code:json newline-separated)
     const encoder = new TextEncoder();
